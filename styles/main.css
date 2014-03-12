@@ -1,0 +1,499 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*-----------Fonts-----------*/
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 100;
+  background-color: #000;
+  color:#fff;
+  font-size: 16px;
+}
+
+h1, h2,h3 {
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 24px;
+	color: #fff;
+	text-decoration:underline;
+}
+
+p {
+	margin: 0;
+	line-height: 18px;
+}
+
+
+i {
+	font-size:150px;
+}
+
+
+/*-----------Text Stylings-----------*/
+
+ul {
+	list-style:none;
+}
+
+/*-----------Section Stylings-----------*/
+
+#container {
+	max-width:1080px;
+	min-width:320px;
+	margin: 0 auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	background-image: url('../images/paper.jpg');
+  	background-repeat:no-repeat;
+ 	background-size:cover;
+}
+
+
+/*-----------About-----------*/
+
+#about {
+	overflow: auto;
+	padding-bottom: 35px;
+	background: rgba(77,77,77,.7);
+}
+
+#my_image {
+	width:280px;
+	height:400px;
+	margin-left:50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float:left;
+}
+
+#about_info {
+	width:50%;
+	height:210px;
+	margin-left:10%;
+	margin-top:110px;
+	float:left;
+}
+
+#about_heading {
+	border-bottom:2px solid #fff;
+	margin-bottom:15px;
+}
+
+/*-----------Education/Experience-----------*/
+
+#education {
+	background:rgba(77,77,77,.7);
+}
+
+#edu_heading {
+	border-bottom:2px solid #fff;
+	width:90%;
+	padding-top:50px;
+	margin-left:50px;
+}
+
+.edu_align {
+	margin-top: 50px;
+	margin-left:50px;
+	width:90%;
+}
+
+/*-----------Programs-----------*/
+
+#programs {
+	overflow: auto;
+	padding-bottom:50px;
+	background:rgba(77,77,77,.7);
+}
+
+#program_heading {
+	border-bottom:2px solid #fff;
+	width:90%;
+	padding-top:35px;
+	margin-left:5%;
+}
+
+#programs ul {
+	margin-top:15px;
+}
+
+#adobe_suite li {
+	margin-top:50px;
+	margin-right:4.5%;
+	float:left;
+}
+
+#sublime_suite {
+	clear:both;
+	padding-top:50px;
+}
+
+#sublime_suite li {
+	margin-top:50px;
+}
+
+#autodesk_suite li {
+	margin-top:50px;
+}
+
+/*-----------Contact-----------*/
+
+#contact {
+	overflow: auto;
+	background:rgba(77,77,77,.7);
+}
+
+
+#contact_heading {
+	border-bottom:2px solid #fff;
+	width:90%;
+	padding-top:50px;
+	margin-left:5%;
+}
+
+#icons li {
+	margin-top:25px;
+	margin-right:10%;
+	margin-bottom:50px;
+	float:left;
+}
+
+/*-----------Tablets--------------------------------------------*/
+
+@media only screen and (max-width : 900px) and (min-width : 600px) {
+	
+/*-----------Fonts-----------*/
+
+body {
+	font-size: 15px;	
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 20px;
+	color: #fff;
+	text-decoration:underline;
+}
+
+p {
+	margin: 0;
+	line-height: 16px;
+}
+
+
+i {
+	font-size:100px;
+}
+
+/*-----------Container-----------*/
+
+	#container {
+		width:85%;
+		height:85%;
+	}
+
+/*-----------About-----------*/
+
+	#about {
+		padding-bottom: 35px;
+	}
+
+	#my_image {
+		width:85%;
+		height:85%;
+		margin-left:8%;
+		margin-top:35px;
+		margin-bottom:0;
+		text-align: center;
+		clear:both;
+	}
+
+	#about_info {
+		width:90%;
+		margin-top:35px;
+		margin-left:5%;
+		margin-right:5%;
+		clear:both;
+	}
+
+	#about_heading {
+		text-align:center;
+		margin-bottom:10px;
+	}
+
+/*-----------Education-----------*/
+
+	#education {
+		padding-bottom:35px;
+	}
+
+	#edu_heading {
+		margin-left:5%;
+		text-align:center;
+	}
+
+	.edu_align {
+		margin-top:35px;
+		margin-left:5%;
+	}
+
+/*-----------Programs-----------*/
+
+	#programs {
+		overflow: auto;
+		padding-bottom:35px;
+	}
+
+	#program_heading {
+		text-align: center;
+	}
+
+	#programs ul {
+		margin-top:15px;
+	}
+
+	#adobe_suite li {
+		margin-top:35px;
+		margin-right:4.5%;
+		float:left;
+	}
+
+	#adobe_suite img {
+		width:75%;
+		height:75%;
+	}
+
+	#sublime_suite {
+		clear:both;
+		padding-top:35px;
+	}
+
+	#sublime_suite li {
+		margin-top:35px;
+	}
+
+	#sublime_suite img {
+		width:126px;
+		height:108px;
+	}
+
+	#autodesk_suite li {
+		margin-top:35px;
+	}
+
+	#autodesk_suite img {
+		width:126px;
+		height:108px;
+	}
+
+/*-----------Contact-----------*/
+	
+	#contact {
+		overflow: auto;
+		padding-bottom: 35px;
+	}
+
+	#contact_heading {
+		border-bottom:2px solid #fff;
+		width:90%;
+		padding-top:35px;
+		margin-left:3%;
+	}
+
+	#icons li {
+		margin-top:35px;
+		margin-bottom:35px;
+		float:left;
+	}
+
+}
+
+
+/*-----------Phones--------------------------------------------*/
+
+@media only screen and (max-width : 599px) and (min-width : 320px) { 
+
+/*-----------Fonts-----------*/
+
+body {
+	font-size:14px;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 16px;
+	color: #fff;
+	text-decoration:underline;
+}
+
+p {
+	margin: 0;
+	line-height: 13.5px;
+}
+
+
+i {
+	font-size:50px;
+}
+
+/*-----------Container-----------*/
+
+	#container {
+		width:75%;
+	}
+
+/*-----------About-----------*/
+
+	#about {
+		height:600px;
+		overflow: visible;
+		padding-bottom: 15px;
+	}
+
+	#my_image {
+		width:85%;
+		height:85%;
+		margin-left:8%;
+		margin-top:15px;
+		margin-bottom:0;
+		text-align: center;
+		clear:both;
+	}
+
+	#suit {
+		width:209px;
+		height:262px;
+	}
+
+	#about_info {
+		width:90%;
+		margin-top:-165px;
+		margin-left:5%;
+		margin-right:5%;
+		clear:both;
+	}
+
+	#about_heading {
+		text-align:center;
+		margin-bottom:10px;
+	}
+
+/*-----------Education-----------*/
+	
+	#edu_heading {
+		margin-left:5%;
+		text-align:center;
+	}
+
+	.edu_align {
+		margin-top:15px;
+		margin-left:5%;
+	}
+
+/*-----------Programs-----------*/
+
+	#programs {
+		padding-bottom:15px;
+	}
+
+	#program_heading {
+		text-align: center;
+	}
+
+	#programs ul {
+		margin-top:15px;
+	}
+
+	#adobe_suite li {
+		margin-top:35px;
+		margin-right:4.5%;
+		float:left;
+	}
+
+	#adobe_suite img {
+		width:65%;
+		height:65%;
+	}
+
+	#sublime_suite {
+		clear:both;
+		padding-top:15px;
+	}
+
+	#sublime_suite li {
+		margin-top:15px;
+	}
+
+	#sublime_suite img {
+		width:109px;
+		height:94px;
+	}
+
+	#autodesk_suite li {
+		margin-top:15px;
+	}
+
+	#autodesk_suite img {
+		width:109px;
+		height:94px;
+	}
+
+/*-----------Contact-----------*/
+	
+	#contact {
+		overflow: auto;
+		padding-bottom:15px;
+	}
+
+	#contact_heading {
+		border-bottom:2px solid #fff;
+		width:90%;
+		padding-top:15px;
+		margin-left:3%;
+	}
+
+	#icons li {
+		margin-top:15px;
+		clear: both;
+	}
+
+}
+
+
+
